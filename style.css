@@ -257,7 +257,8 @@
     text-decoration:none;
 }
 
-.main__btn:after{
+.main__btn:after,
+.services__btn:after{
     position:absolute;
     content:'';
     top:0 ;
@@ -270,11 +271,13 @@
     color:#fff;
 }
 
-.main__btn:hover{
+.main__btn:hover,
+.services__btn:hover{
     color:#fff;
 }
 
-.main__btn:hover:after{
+.main__btn:hover:after,
+.services__btn:hover:after{
     width:100%;
 }
 
@@ -389,7 +392,7 @@
 
 .services__card p{
     position: absolute;
-    top:400px;
+    top:390px;
     left:30px;
 }
 
@@ -397,11 +400,11 @@
     color:#fff;
     padding:10px 20px;
     border:none;
-    outline: none;
+    /* outline: none; */
     border-radius:4px;
     background:#f77062;
     position:absolute;
-    top:440px;
+    top:400px;
     left:30px;
     font-size:1rem;
     cursor: pointer;
@@ -409,7 +412,7 @@
 
 .services__card:hover{
     transform: scale(1.075);
-    transition: 0.2s ease-in;
+    transition: 0.1s ease-in;
     cursor: pointer;
 }
 
